@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+/*
+font-family: 'Libre Baskerville', serif;
+font-family: 'Roboto Mono', monospace;
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Libre Baskerville', serif;
+  color: whitesmoke;
+  background-color: rgb(19, 18, 18);
+}
+
+.coin-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 64px;
+  color: #fff;
+}
+
+.coin-search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 64px;
+  justify-content: center;
+}
+
+.coin-text {
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.coin-input {
+  padding-left: 16px;
+  width: 300px;
+  height: 50px;
+  border-radius: 4px;
+  border: none;
+  background-image: linear-gradient(-225deg, #f86767 0%, #f21861 45%, #5eff01 100%);
+  font-family: 'Roboto Mono', monospace;
+  color: #000;
+}
+
+::placeholder {
+  color: rgba(255, 255, 255, 0.678);
+}
+
+@media (max-width: 850px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .coin-input{
+    width: 240px;
+    height: 40px;
+  }
+}
