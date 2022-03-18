@@ -1,0 +1,20 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+}
+nav h1 {
+    font-family: 'Changa', sans-serif;
+}
+
+body.dark nav {
+    background-color: rgb(160, 156, 156);
+    border-bottom: 2px solid rgb(124, 228, 124);
+}
+
+body.light nav {
+    background-color: rgb(250, 226, 226);
+    border-bottom: 2px solid crimson;
+}
+
