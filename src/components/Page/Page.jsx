@@ -26,7 +26,11 @@ function Page() {
       <div className="coin-search">
         <h1 className="coin-text">Buscar criptomoeda:</h1>
         <form>
-          <input type="text" placeholder='Buscar..' className="coin-input" onChange={handleChange}/>
+          <input type="text" 
+                  placeholder='Buscar..' 
+                  className="coin-input" 
+                  onChange={handleChange}
+                  onKeyPress={(e) => { e.key === 'Enter' && e.preventDefault(); }}/>
         </form>
       </div>
       {filteredCoins.map(coin => {
