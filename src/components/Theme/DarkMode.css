@@ -4,6 +4,8 @@
   height: 45px;
   border: none;
   border-radius: 50%;
+  background-color: rgb(204, 190, 190);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.493);
 }
 
 #darkMode:hover,
@@ -13,7 +15,7 @@
   }
   
   #darkMode.clicked {
-    background-color: rgba(169, 169, 169, 0.568);
+    background-color: rgba(205, 216, 108, 0.568);
   }
 
   
