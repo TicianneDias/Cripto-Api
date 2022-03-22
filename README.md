@@ -25,6 +25,7 @@
 
 ## 💡 Sobre: <a id="sobre"></a>
 Projeto desenvolvido para acompanhar o estado das criptomoedas em tempo real. Para uma melhor experiência do usuário, foi colocado alteração de temas da página.
+<p><a href="https://adoring-mahavira-0c4214.netlify.app/">Veja site clicando aqui.</a></p>
 
 <br> <br> <br>
 
